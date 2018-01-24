@@ -30,9 +30,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-#media
-MEDIA_ROOT = MEDIA_DIR
-MEDIA_URL = '/media/'
 
 # Application definition
 
@@ -128,3 +125,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [STATIC_DIR, ]
+
+
+#media
+MEDIA_ROOT = MEDIA_DIR
+MEDIA_URL = '/media/'
