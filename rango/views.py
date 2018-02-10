@@ -57,7 +57,7 @@ def index(request):
     #return HttpResponse("Rango says hey there partner! <br/><a href='/rango/about/'>About</a>")
 
 def about(request):
-    return render(request, 'rango/about.html')
+    return render(request, 'rango/about.html', {})
 
 def add_category(request):
     form = CategoryForm()
